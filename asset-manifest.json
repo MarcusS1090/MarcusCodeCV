@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarcusCodeCv/static/css/main.69b1b861.css",
-    "main.js": "/MarcusCodeCv/static/js/main.31d27fac.js",
+    "main.js": "/MarcusCodeCv/static/js/main.8b77d5e5.js",
     "static/js/787.128fc6e9.chunk.js": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js",
     "static/media/project-img5.png": "/MarcusCodeCv/static/media/project-img5.66e3970ed4069442d549.png",
     "static/media/project-img9.png": "/MarcusCodeCv/static/media/project-img9.564a28124879066666f2.png",
@@ -34,11 +34,11 @@
     "index.html": "/MarcusCodeCv/index.html",
     "static/media/nav-icon1.svg": "/MarcusCodeCv/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "main.69b1b861.css.map": "/MarcusCodeCv/static/css/main.69b1b861.css.map",
-    "main.31d27fac.js.map": "/MarcusCodeCv/static/js/main.31d27fac.js.map",
+    "main.8b77d5e5.js.map": "/MarcusCodeCv/static/js/main.8b77d5e5.js.map",
     "787.128fc6e9.chunk.js.map": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69b1b861.css",
-    "static/js/main.31d27fac.js"
+    "static/js/main.8b77d5e5.js"
   ]
 }
