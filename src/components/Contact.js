@@ -1,59 +1,28 @@
 //importacion de las dependencias,utilidades,assets, etc.
-import { useState } from "react"
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from '../assets/img/contact-img.svg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
-
-    //vamos a crear un objeto para nuestro formulario de contacto
-    const formInitialDetails = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        message: ''
-    }
-
-    //vamos a crear nuestras funciones para el estado de si el formulario se lleno o no 
-    const [formDetails, setFormDetails] = useState(formInitialDetails);
-
-    //vamos a crear una variable para nuestro boton, para saber cuando se hizo efectivo el envio de nuestro formulario
-    const [buttonText, setButtonText] = useState('Enviar');
-
-    //aqui vamos a crear una variable para ver que nuestra api este en buen funcionanmiento o que nos envie un error
-
-    const [status, setStatus] = useState({});
-
-    //aqui vamos ver que solo nos de los valores que le hemos pedido 
-    const onFormUpdate = (category, value) => {
-        setFormDetails({
-            ...formDetails,
-            [category] : value
-        })
-    }
-
+    const form = useRef();
     //aqui vamos a crear una funcion para el envio del formulario a nuestro servidor, hacemos un fect request para ello
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText("Enviando...");
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-type": "Application/json;chraset=utf-8",
-            },
-            body: JSON.stringify(formDetails),
-             
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_b0oiuyo',
+       'template_s447le4',
+        form.current,
+        'OBSChM4lhZY7hgddQ')
+        .then((result) => {
+            console.log(result.text);
+            console.log("Success");
+        }, (error) => {
+            console.log(error.text);
+            console.log("fail");
         });
-        setButtonText("Enviado");
-        let result = response.json();
-        setFormDetails(formInitialDetails);
-        if (result.code === 200) {
-            setStatus({success: true, message: 'Mensaje enviado satisfactoriamente'});
-        } else {
-            setStatus({success: false, message: 'Algo fallo,por favor intente de nuevo mas tarde'})
-        }
     };
 
     return (
@@ -71,31 +40,25 @@ export const Contact = () => {
               <TrackVisibility>
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
+                  <h2>!Contactame y trabajemos juntos¡</h2>
+                  <form ref={form} onSubmit={sendEmail}>
                     <Row>
+                        <Col size={12} sm={6} className="px-1">
+                          <input type="text"placeholder="Nombre" name="user_name" />
+                        </Col> 
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text" value={formDetails.firstName} placeholder="Nombre" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                        <input type="tel" placeholder="Apellido" name="user_lastName"/>
                       </Col>
+                        <Col size={12} sm={6} className="px-1">
+                          <input type="email" placeholder="name@example.com" name="user_email" />   
+                        </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text" value={formDetails.lasttName} placeholder="Apellido" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="email" value={formDetails.email} placeholder="Correo Electronico" onChange={(e) => onFormUpdate('email', e.target.value)} />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="tel" value={formDetails.phone} placeholder="Numero de Telefono" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                        <input type="tel" placeholder="numero de telefono" name="user_phone"/>
                       </Col>
                       <Col size={12} className="px-1">
-                        <textarea rows="6" value={formDetails.message} placeholder="Mensaje" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                        <button type="submit"><span>{buttonText}</span></button>
+                        <textarea rows="6" placeholder="Asunto"></textarea>
+                        <button type="submit" value="send"><span>Enviar</span></button>
                       </Col>
-                      {
-                        status.message &&
-                        <Col>
-                          <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                        </Col>
-                      }
                     </Row>
                   </form>
                 </div>}
