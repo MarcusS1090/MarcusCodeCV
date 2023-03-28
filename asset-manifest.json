@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MarcusCodeCv/static/css/main.aed8da0f.css",
-    "main.js": "/MarcusCodeCv/static/js/main.a0dea456.js",
+    "main.css": "/MarcusCodeCv/static/css/main.69b1b861.css",
+    "main.js": "/MarcusCodeCv/static/js/main.31d27fac.js",
     "static/js/787.128fc6e9.chunk.js": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js",
     "static/media/project-img5.png": "/MarcusCodeCv/static/media/project-img5.66e3970ed4069442d549.png",
     "static/media/project-img9.png": "/MarcusCodeCv/static/media/project-img9.564a28124879066666f2.png",
@@ -19,9 +19,6 @@
     "static/media/project-img7.jpg": "/MarcusCodeCv/static/media/project-img7.c8389b88cc4044fba4fa.jpg",
     "static/media/banner-bg.png": "/MarcusCodeCv/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/MarcusCodeCv/static/media/header-img.eade309627f3a589600eaf0f348e34ab.svg",
-    "static/media/CentraNo2-Bold.ttf": "/MarcusCodeCv/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/MarcusCodeCv/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/MarcusCodeCv/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/MarcusCodeCv/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/nav-icon2.png": "/MarcusCodeCv/static/media/nav-icon2.4ea05d62be8d06c6192f.png",
     "static/media/project-img13.png": "/MarcusCodeCv/static/media/project-img13.2c530d9bbf7d2e1c8f3d.png",
@@ -36,12 +33,12 @@
     "static/media/nav-icon3.svg": "/MarcusCodeCv/static/media/nav-icon3.1dd01cc08c3f430ac04e8f6182ad4bf0.svg",
     "index.html": "/MarcusCodeCv/index.html",
     "static/media/nav-icon1.svg": "/MarcusCodeCv/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
-    "main.aed8da0f.css.map": "/MarcusCodeCv/static/css/main.aed8da0f.css.map",
-    "main.a0dea456.js.map": "/MarcusCodeCv/static/js/main.a0dea456.js.map",
+    "main.69b1b861.css.map": "/MarcusCodeCv/static/css/main.69b1b861.css.map",
+    "main.31d27fac.js.map": "/MarcusCodeCv/static/js/main.31d27fac.js.map",
     "787.128fc6e9.chunk.js.map": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed8da0f.css",
-    "static/js/main.a0dea456.js"
+    "static/css/main.69b1b861.css",
+    "static/js/main.31d27fac.js"
   ]
 }
