@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MarcusCodeCv/static/css/main.69b1b861.css",
-    "main.js": "/MarcusCodeCv/static/js/main.ca617c57.js",
+    "main.css": "/MarcusCodeCv/static/css/main.91831f9e.css",
+    "main.js": "/MarcusCodeCv/static/js/main.279eac20.js",
     "static/js/787.128fc6e9.chunk.js": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js",
     "static/media/project-img5.png": "/MarcusCodeCv/static/media/project-img5.66e3970ed4069442d549.png",
     "static/media/project-img9.png": "/MarcusCodeCv/static/media/project-img9.564a28124879066666f2.png",
@@ -33,12 +33,12 @@
     "static/media/nav-icon3.svg": "/MarcusCodeCv/static/media/nav-icon3.1dd01cc08c3f430ac04e8f6182ad4bf0.svg",
     "index.html": "/MarcusCodeCv/index.html",
     "static/media/nav-icon1.svg": "/MarcusCodeCv/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
-    "main.69b1b861.css.map": "/MarcusCodeCv/static/css/main.69b1b861.css.map",
-    "main.ca617c57.js.map": "/MarcusCodeCv/static/js/main.ca617c57.js.map",
+    "main.91831f9e.css.map": "/MarcusCodeCv/static/css/main.91831f9e.css.map",
+    "main.279eac20.js.map": "/MarcusCodeCv/static/js/main.279eac20.js.map",
     "787.128fc6e9.chunk.js.map": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69b1b861.css",
-    "static/js/main.ca617c57.js"
+    "static/css/main.91831f9e.css",
+    "static/js/main.279eac20.js"
   ]
 }
