@@ -9,10 +9,8 @@ import headerImg from '../assets/img/header-img.svg';
 
 
 //vamos a importar nuestros paquetes para que haya animaciones
-import 'animate.css';
 
 //vamos a importar nuestra dependecia de react-on-screen
-import TrackVisibility from 'react-on-screen';
 /*  
 aqui procederemos a exportar todo lo que conlleva al banner a nuestro archivo App.js en src, esto lo hacemos con una funcion 
 para hacer mas rapido las callbacks
@@ -81,25 +79,15 @@ export const Banner = () =>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md = {6} xl = {7}>
-                        <TrackVisibility>
-                        {({ isVisible }) =>
-                            <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                             <span className="tagline">Bienvenidos a mi portafolio</span>
-                             <h1>{`Hola soy MarcusCode `}<span className="txt-rotate" dataperiod="1000" data-rotate='["Web Developer", "Web Designer", "3D Designer"]'><span className="wrap">{text}</span></span></h1>
-                                <p>Soy una persona joven con un sistema de valores laborales fundamentado en la responsabilidad, esfuerzo, resiliencia,
-                                  tengo claro mis propósitos y metas a mediano y corto plazo,
-                                  conozco mi potencial y la capacidad de mis aptitudes para prestar mis servicios de manera óptima en el área y cargo a desempeñar</p>
-                            </div>}
-                        </TrackVisibility>
+                        <span className="tagline">Bienvenidos a mi portafolio</span>
+                        <h1>{`Hola soy MarcusCode Web Developer`}</h1>
+                        <p>Soy una persona joven con un sistema de valores laborales fundamentado en la responsabilidad, esfuerzo, resiliencia,
+                            tengo claro mis propósitos y metas a mediano y corto plazo,
+                            conozco mi potencial y la capacidad de mis aptitudes para prestar mis servicios de manera óptima en el área y cargo a desempeñar
+                        </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt = "Header Img"/>
-                                </div>}    
-                        </TrackVisibility>
-                     
+                        <img src={headerImg} alt = "Header Img"/>                     
                     </Col>
                 </Row>
             </Container>

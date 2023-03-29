@@ -22,11 +22,6 @@ import projImg12 from '../assets/img/project-img12.png';
 import projImg13 from '../assets/img/project-img13.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
-//vamos a importar nuestros paquetes para que haya animaciones
-import 'animate.css';
-
-//vamos a importar nuestra dependecia de react-on-screen
-import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
@@ -126,9 +121,6 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <TrackVisibility>
-                        {({ isVisible }) =>
-                            <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                         <h2>Proyectos</h2>
                         <p> Estos son algunos de los projectos que he realizado a lo largo de mi aprendizaje
                             dentro de la programacion Web, diseño 3D y diseño de logos</p>
@@ -189,8 +181,6 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
-                        </div>}
-                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>
