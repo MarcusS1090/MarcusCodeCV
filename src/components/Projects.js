@@ -7,8 +7,8 @@ import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/project-img4.png';
-import netflixClone from "../assets/img/netflixClone.png"
-import AirbnbClone from "../assets/img/AirbnbClone.png"
+import netflixClone from "../assets/img/netflixClone.png";
+import AirbnbClone from "../assets/img/AirbnbClone.png";
 
 //3D Design
 import projImg5 from '../assets/img/project-img5.png';
