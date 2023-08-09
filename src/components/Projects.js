@@ -7,6 +7,8 @@ import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/project-img4.png';
+import netflixClone from "../assets/img/netflixClone.png"
+import AirbnbClone from "../assets/img/AirbnbClone.png"
 
 //3D Design
 import projImg5 from '../assets/img/project-img5.png';
@@ -28,28 +30,40 @@ export const Projects = () => {
     //aqui vamos a ingresar la informacion de nuestros proyectos web, con un json
     const ProjectsWebDeveloper = [
         {
-            title: "PortFolio Desing Responsive",
-            description: "Design,HTML,CSS,SAS, JAVASCRIPT",
+            title: "PortFolio Design Responsive",
+            description: "Design, HTML, CSS, SAS, JAVASCRIPT",
             imgUrl: projImg1,
         },
         
         {
-            title: "Spotify Desktop Desing Responsive",
-            description: "Design,HTML,CSS & Sass",
+            title: "Spotify Desktop Design Responsive",
+            description: "Design, HTML, CSS & Sass",
             imgUrl: projImg2,
         },
 
         {
             title: "Movie Guide Responsive",
-            description: "Design,HTML,CSS,JAVASCRIPT",
+            description: "Design, HTML, CSS, JAVASCRIPT",
             imgUrl: projImg3,
         },
 
         {
             title: "React-App Responsive CV",
-            description: "Design,Boostrap-react,JavaScript,React-Hooks",
+            description: "Design, Bootstrap-react, JavaScript, React-Hooks",
             imgUrl: projImg4,
         },
+
+        {
+            title: "Netflix-Clone",
+            description: "Design, REST/FULL, TypeScript, React, React-Hooks",
+            imgUrl: netflixClone,
+        },
+
+        {
+            title: "AirBnB-Clone",
+            description: "React, MongoDB, Tailwind, TypeScript, REST/FULL, Javascript",
+            imgUrl: AirbnbClone,
+        }
 
     ];
 
