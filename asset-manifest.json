@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/MarcusCodeCv/static/css/main.91831f9e.css",
-    "main.js": "/MarcusCodeCv/static/js/main.279eac20.js",
+    "main.js": "/MarcusCodeCv/static/js/main.0e6bc761.js",
     "static/js/787.128fc6e9.chunk.js": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js",
     "static/media/project-img5.png": "/MarcusCodeCv/static/media/project-img5.66e3970ed4069442d549.png",
     "static/media/project-img9.png": "/MarcusCodeCv/static/media/project-img9.564a28124879066666f2.png",
     "static/media/project-img8.png": "/MarcusCodeCv/static/media/project-img8.2ccb41f272aaac2c26c0.png",
+    "static/media/netflixClone.png": "/MarcusCodeCv/static/media/netflixClone.3f736472d8d77aa3bc9d.png",
     "static/media/color-sharp.png": "/MarcusCodeCv/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img3.png": "/MarcusCodeCv/static/media/project-img3.53f3cba23a29a51807c7.png",
     "static/media/project-img4.png": "/MarcusCodeCv/static/media/project-img4.6cea32275763778a51dc.png",
@@ -20,6 +21,7 @@
     "static/media/banner-bg.png": "/MarcusCodeCv/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/MarcusCodeCv/static/media/header-img.eade309627f3a589600eaf0f348e34ab.svg",
     "static/media/footer-bg.png": "/MarcusCodeCv/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/AirbnbClone.png": "/MarcusCodeCv/static/media/AirbnbClone.f7876a9d4bda95942cd5.png",
     "static/media/nav-icon2.png": "/MarcusCodeCv/static/media/nav-icon2.4ea05d62be8d06c6192f.png",
     "static/media/project-img13.png": "/MarcusCodeCv/static/media/project-img13.2c530d9bbf7d2e1c8f3d.png",
     "static/media/contact-img.svg": "/MarcusCodeCv/static/media/contact-img.1c8af4bc3e40bd32fa2809c1644b3cf7.svg",
@@ -34,11 +36,11 @@
     "index.html": "/MarcusCodeCv/index.html",
     "static/media/nav-icon1.svg": "/MarcusCodeCv/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "main.91831f9e.css.map": "/MarcusCodeCv/static/css/main.91831f9e.css.map",
-    "main.279eac20.js.map": "/MarcusCodeCv/static/js/main.279eac20.js.map",
+    "main.0e6bc761.js.map": "/MarcusCodeCv/static/js/main.0e6bc761.js.map",
     "787.128fc6e9.chunk.js.map": "/MarcusCodeCv/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91831f9e.css",
-    "static/js/main.279eac20.js"
+    "static/js/main.0e6bc761.js"
   ]
 }
